@@ -1,3 +1,6 @@
+# This is an example file. Please change the bot token and user ID, and the message sent if you so choose.
+
+
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES] });
 const USER_ID = '790982978825093120'; // Replace with the ID of the user you want to ping
