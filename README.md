@@ -5,7 +5,7 @@ This method will cover a server disruption. The goal of this method will be made
 
 # The FULL ASS GUIDE
 
-Firstly, make sure you have permissions for the server you want to do this in. If you don't, ask the creator or admin to follow these steps.
+Firstly, make sure you have permissions for the server you want to do this in. If you don't, ask the creator or admin to follow these steps. The bot needs to be in the same server as Kay-H for this to work.
 
 Go to https://discord.com/developers/applications/ and click "New Application". Name it whatever you wish, accept the terms, and create it. 
 Go to the bot tab on the side, and Add Bot. Confirm this.
@@ -16,14 +16,14 @@ Go through the instructions, including which server you'd like to add the bot to
 Your bot is now present in the server!
 Now, go back to the developer portal and go to the "Bot" tab. Click on "reset token". This is the unique indentifier of the bot that you will paste in the code. Copy it and take note of it, it will be hidden the moment you click off the tab or close the page. The bot will stop working if another token is generated, and you will need to put it back into the code.
 
-Now it is time to locally setup this bot. I have created example files in the code, they will be using the Discord.js library. If you are comfortable with py or perhaps the typescript equivalent of .js, you may do what suits you best. 
+Now it is time to locally setup this bot. I have created the example file in the code, but its dependencies will use the discord.js library. If you are comfortable with py or perhaps the typescript equivalent of .js, you may do what suits you best. 
 
 Create a folder on your desktop (or wherever you wish) called "KHBot". You may change the name, but we are just setting up the environment on which to work in.
 We will setup dependencies. Make sure you have administator access for the following steps. 
 
 Visit the official Node.js website at https://nodejs.org. Download the user suggested version. Run the installer and choose default settings (unless you need to change them). Node.js should now be installed, along with npm.
 
-In your command prompt.
+In your command prompt, in the folder (you may click on the path, and type in cmd).
 Run the following command:
 'npm i discord.js@13'
 This bot will not work with later versions, its code is deprecated. You should now notice a folder and some files in your workspace. Now, right click, and create a new text document. Delete everything in the name (including the .txt extension), and rename it to index.js
@@ -37,3 +37,4 @@ You can personalize what the bot will ping Kay-H with by editing the user.send l
 At this point, you should be done! To run the bot, go to the main folder of the project, click on the path on the top, and type in "cmd". Then run the following command:
 'node index.js'
 You will know its working if it continuously shows pinging in the console log.
+That's it! If the bot isn't working, then sadly Kay-H has likely blocked it. You may need to do this guide again, sans the installation of node. Again, strength in numbers. Issues can be directed to SteakIsFake#7231.
