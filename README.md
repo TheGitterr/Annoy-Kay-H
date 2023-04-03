@@ -27,7 +27,7 @@ In your command prompt, in the folder (you may click on the path, and type in cm
 Run the following command:
 'npm i discord.js@13'
 This bot will not work with later versions, its code is deprecated. You should now notice a folder and some files in your workspace. Now, right click, and create a new text document. Delete everything in the name (including the .txt extension), and rename it to index.js
-The github will have a release folder with the necessary file. You may download and replace the one created, or more simply, just copy its code into your folder.
+The github will have a release folder with the necessary file. You may download and replace the one created, or more simply, just copy its code into your existing file.
 
 Now we begin editing the code. On discord, right click on Kay-H's name for his user ID. If you don't want to, its just '343131517469327360'. Replace the existing user ID.
 On the bot token, replace it with your own.
